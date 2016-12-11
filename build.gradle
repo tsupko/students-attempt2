@@ -18,5 +18,6 @@ dependencies {
     compile group: 'org.springframework.security', name: 'spring-security-config', version: '4.2.0.RELEASE'
     compile group: 'org.springframework.security', name: 'spring-security-core', version: '4.2.0.RELEASE'
     compile group: 'org.springframework.security', name: 'spring-security-web', version: '4.2.0.RELEASE'
+    compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: '4.2.0.RELEASE'
     compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.21'
 }
