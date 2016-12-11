@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://www.springframework.org/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: Waylesange
@@ -12,5 +13,11 @@
 </head>
 <body>
 Welcome!
+
+<c:url var="logoutUrl" value="/logout"/>
+<form action="${logoutUrl}" method="post">
+    <input type="submit" value="Logout"/>
+    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+</form>
 </body>
 </html>
